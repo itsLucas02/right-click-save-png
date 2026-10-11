@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Right-Click Save as PNG by Aizzul",
+  "version": "1.0.2",
+  "description": "Right-click any image to save it as PNG, whatever the original format (webp, avif, placeholder pages, etc.).",
+  "permissions": ["contextMenus", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": { "service_worker": "background.js" },
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/16.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    },
+    "default_title": "Save image as PNG by Aizzul"
+  }
+}
